@@ -1,0 +1,177 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  a4paper,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Latin Modern Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\usepackage{sectsty}
+\sectionfont{\centering}
+
+\begin{document}
+
+\section{Business Mission Analysis:
+OpenAI}\label{business-mission-analysis-openai}
+
+\begin{center}
+Strategic Management (full-time form)
+
+Jiří Kužel
+(\href{https://is.mendelu.cz/auth/lide/clovek.pl?id=100910}{xkuzel -
+100910})
+\end{center}
+
+\subsection{Mission Statement}\label{mission-statement}
+
+\emph{Our mission is to ensure that artificial general intelligence
+benefits all of humanity.} (OpenAI, 2026).
+
+
+\subsection{Evaluation of the
+Formulation}\label{evaluation-of-the-formulation}
+
+The mission is evaluated using the following four conditions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Market Orientation}
+
+  OpenAI's mission focuses on bringing benefits to people. This is a
+  strength because it gives the company a purpose beyond just developing
+  technology or selling products.
+
+  However, it does not explain which needs the company wants to satisfy.
+  \emph{All of humanity} is very broad and does not identify any
+  particular customers or markets. The statement tells us what
+  technology OpenAI works on, but little about what people should gain
+  from it.
+
+  \textbf{Assessment:} partly met
+\item
+  \textbf{Realisticity (Possibility to Realise)}
+
+  Main problem is the word \emph{ensure}. OpenAI can influence how they
+  develop their technology, but they cannot fully control how others use
+  it. Making sure that it benefits everyone is therefore a very
+  difficult promise to fulfil. Great example might be a misuse for
+  malicious purposes.
+
+  There is also no clear way to decide when the mission has been
+  achieved. What counts as a benefit, and does it have to reach every
+  person? The mission makes sense as a long-term ambition, but it is
+  hard to treat it as an achievable goal.
+
+  \textbf{Assessment:} weakly met
+\item
+  \textbf{Motivation}
+
+  This is probably the strongest part of the mission. Working on
+  something that could help people gives employees a reason to care
+  about their work beyond their salary. The statement is also short and
+  easy to remember.
+
+  On the other hand, the idea of benefiting humanity is still quite
+  abstract. It does not tell employees much about how to make everyday
+  decisions, especially when helping one group could create problems for
+  another one.
+
+  \textbf{Assessment:} partly met
+\item
+  \textbf{Specificity (Specification)}
+
+  The reference to artificial general intelligence gives the mission a
+  clear field. It is more specific than simply saying that the company
+  wants to make the world better.
+
+  Though, it does not explain what makes OpenAI different from other AI
+  companies. It says nothing about its main users, products or approach.
+  Another company working on AGI could use almost the same mission.
+
+  \textbf{Assessment:} partly met
+\end{enumerate}
+
+\subsection{Overall assessment}\label{overall-assessment}
+
+The mission is short and motivating, but too broad to give much guidance
+for business decisions. It identifies the field OpenAI works in and the
+outcome it wants. It does not explain which needs it serves or how
+success should be measured.
+
+The biggest weakness is the promise to \emph{ensure} benefits for
+everyone. I would keep the ambition, but make the wording more concrete
+and less absolute.
+
+\subsection{Proposal of adjustments}\label{proposal-of-adjustments}
+
+My proposed version:
+
+\emph{We develop AI tools that help people learn, work and solve
+problems. We aim to make these tools useful, safe and accessible, while
+working towards artificial general intelligence whose benefits are
+widely shared.}
+
+This version names the needs the company wants to serve and connects
+them to its work. It also keeps the original ambition without promising
+an outcome that one company cannot fully control. More detailed goals
+would still be needed to measure an actual progress.
+
+\subsection{Sources}\label{sources}
+
+\begin{itemize}
+\tightlist
+\item
+  {[}OpenAI, 2026{]} OpenAI. 2026 About | OpenAI. {[}online{]}. {[}cit.
+  2026-10-05{]}. 
+  
+  Available from: \url{https://openai.com/about/}.
+\end{itemize}
+
+\end{document}
